@@ -1,0 +1,9 @@
+*.egg-info/
+.ipynb_checkpoints/
+dist/
+build/
+_build/
+*.py[cod]
+node_modules/
+_future
+.coverage

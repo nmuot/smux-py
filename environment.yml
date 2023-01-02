@@ -1,0 +1,21 @@
+name: smux-dev
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python
+  - numpy
+  - scipy
+  - matplotlib
+  - xarray
+  #
+  - black
+  #
+  - jupyter
+  - jupyter-book
+  - jupyter_contrib_nbextensions
+  # For testing
+  - pytest
+  - pytest-cov
+  - pytest-xdist
+  - hypothesis
